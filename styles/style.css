@@ -76,7 +76,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  text-align: left;
+  margin: 0 auto;
 }
 
 .two-columns__main_text {
