@@ -235,6 +235,7 @@
   font-weight: normal;
   text-decoration: none;
   color:#2f80ed;
+  z-index: 4;
 }
 
 .feynman__image {
@@ -292,7 +293,7 @@
   color: white;
 }
 
-.footer__column_content {
+.footer__column {
   margin: 0;
   display: flex;
   flex-direction: column;
