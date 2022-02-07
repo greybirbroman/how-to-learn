@@ -13,6 +13,7 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
+  overflow: hidden;
 }
 
 .header__title {
@@ -40,6 +41,12 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  opacity: 1;
+}
+
+.header__link:hover {
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
 .header__main-illustration {
@@ -59,6 +66,7 @@
   width: 568px;
   background-color: #2f80ed;
   z-index: 1;
+  animation: rotation 20s infinite linear;
 }
 
 .description {
@@ -104,8 +112,8 @@
 }
 
 .digits {
-  margin-top: 100px;
-  padding: 0;
+  margin: 100px auto 0 auto;
+  padding-bottom: 100px;
 }
 
 .section-title {
@@ -118,9 +126,7 @@
 }
 
 .section-title_theme_dark {
-  margin: 0 auto;
-  padding-top: 90px;
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
   position: relative;
   color: white;
   z-index: 4;
@@ -128,9 +134,8 @@
 
 .section-subtitle {
   width: 60%;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   text-align: center;
-  margin-top: 20px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -152,7 +157,6 @@
 
 .table_theme_dark {
   position: relative;
-  padding-bottom: 90px;
   z-index: 2;
 }
 
@@ -198,7 +202,6 @@
 .feynman {
   position: relative;
   background-color: #f2f2f2;
-  margin-top: 100px;
   padding: 0;
   min-height: 890px;
 }
@@ -236,6 +239,12 @@
   text-decoration: none;
   color:#2f80ed;
   z-index: 4;
+  opacity: 1;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
 .feynman__image {
@@ -251,7 +260,8 @@
   position: relative;
   background-color: #1f1f1f;
   margin: 0;
-  padding: 0;
+  padding-top: 90px;
+  padding-bottom: 90px;
   z-index: 2;
 }
 
@@ -266,6 +276,7 @@
   top: 0;
   right: -210px;
   z-index: 1;
+  animation: rotation 20s infinite linear;
 }
 
 .footer {
@@ -339,4 +350,188 @@
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+
+.techniques {
+  max-width: 80%;
+  margin: 100px auto 0 auto;
+  padding: 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 920px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.cards__item {
+  margin: 0 0 60px 100px;
+  padding: 0;
+  max-width: 240px;
+  list-style-type: none;
+}
+
+.cards__item:nth-of-type(4) {
+  margin-bottom: 0;
+}
+
+.cards__item:nth-of-type(5) {
+  margin-bottom: 0;
+}
+
+.cards__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px 40px;
+}
+
+.cards__title {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.cards__description {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video {
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  top: 50px;
+}
+
+.video__iframe:last-child {
+  margin-left: 20px;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 160px;
+  margin: 0 auto;
+}
+
+.khan {
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 105px;
+}
+
+.khan__author {
+  margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.khan__quote {
+  max-width: 790px;
+  margin-top: 50px;
+  margin-bottom: 36px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote_author {
+  margin-bottom: 10px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.khan__quote_author_subline {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book_container {
+  display: flex;
+}
+
+.khan__book_pic {
+  width: 620px;
+  height: 608px;
+  padding-top: 68px;
+}
+
+.khan__buy_link {
+  margin-left: 48px;
+  padding-top: 68px;
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  opacity: 1;
+}
+
+.khan__buy_link:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.resourses {
+  margin: 100px auto 0 auto;
+  padding-bottom: 217px;
+}
+
+.resourses__logo_zone {
+  max-width: 1100px;
+  margin: 80px auto 0 auto;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.resourses__logo {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  min-width: 270px;
+  min-height: 38px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
