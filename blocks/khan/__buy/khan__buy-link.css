@@ -1,4 +1,4 @@
-.khan__buy_link {
+.khan__buy-link {
     margin-left: 48px;
     padding-top: 68px;
     text-decoration: none;
@@ -9,7 +9,7 @@
     opacity: 1;
   }
   
-  .khan__buy_link:hover {
+  .khan__buy-link:hover {
     opacity: 0.5;
     transition: 0.5s;
   }
