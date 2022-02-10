@@ -6,12 +6,19 @@
   list-style-type: none;
 }
 
+.resourses__logo:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
 .resourses__logo {
   display: flex;
   flex-grow: 1;
   justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   min-width: 270px;
   min-height: 38px;
+  opacity: 1;
 }
