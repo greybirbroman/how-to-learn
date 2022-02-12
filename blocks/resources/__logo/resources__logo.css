@@ -1,4 +1,4 @@
-.resourses__logo-zone {
+.resources__logo-zone {
   max-width: 1100px;
   margin: 80px auto 0 auto;
   padding: 0;
@@ -6,12 +6,12 @@
   list-style-type: none;
 }
 
-.resourses__logo:hover {
+.resources__logo:hover {
   opacity: 0.5;
   transition: 0.5s;
 }
 
-.resourses__logo {
+.resources__logo {
   display: flex;
   flex-grow: 1;
   justify-content: center;
