@@ -1,9 +1,9 @@
 .khan__book-container {
   display: flex;
+  padding-top: 68px;
 }
 
 .khan__book-pic {
-  width: 608px;
-  height: 620px;
-  padding-top: 68px;
+  max-width: 608px;
+  max-height: 620px;
 }

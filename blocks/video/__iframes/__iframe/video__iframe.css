@@ -1,5 +1,6 @@
 .video__iframe {
   list-style-type: none;
+  border: 0;
 }
 
 .video__iframe:last-child {
